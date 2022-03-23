@@ -1,0 +1,30 @@
+const txtAnim = document.querySelector('h1');
+
+new Typewriter(txtAnim, {
+     loop: true,
+     deleteSpeed: 20
+})
+.changeDelay(20)
+.typeString('Nous')
+.pauseFor(300)
+.typeString('<strong> vous montrons l\'informatique</strong> ')
+.pause(2000)
+.deleteChars(15)
+.typeString('<span style="color: #27ae60"> le gaming</span> ')
+.pauseFor(1000)
+.deleteChars(10)
+.typeString('<span style="color: midnightblue"> le codage</span> ')
+.pauseFor(1000)
+.deleteChars(10)
+.typeString('<span style="color: #ea39ff"> des tutos</span> ')
+.pauseFor(1000)
+.deleteChars(22)
+.typeString('<span style="color: #ff6910">apprenons l\'informatique </span> ')
+.pauseFor(1000)
+.deleteChars(16)
+.typeString('<span style="color: #ea39ff"> bien plus encore...</span> ')
+.pauseFor(1000)
+.deleteChars(36)
+.typeString('<span style="color: #0070F6"> sommes Informatikids</span> ')
+.pauseFor(5000)
+.start()
